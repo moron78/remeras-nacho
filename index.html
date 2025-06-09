@@ -2,114 +2,94 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mis remeras de fútbol</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
       margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
+      padding: 20px;
     }
-    header {
-      background-color: #222;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
+
     h1 {
-      margin: 0;
+      font-family: 'Arial Black', sans-serif;
+      font-size: 40px;
+      color: darkblue;
+      text-align: center;
+      margin-bottom: 40px;
     }
-    .subtitle {
-      font-size: 1rem;
-      margin-top: 5px;
-      color: #aaa;
-    }
-    .section {
-      padding: 1rem;
-    }
+
     h2 {
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.3rem;
+      font-size: 28px;
+      color: darkred;
+      margin-top: 40px;
     }
-    .gallery {
+
+    .galeria {
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: flex-start;
+      gap: 20px;
     }
-    .gallery img {
-      width: 200px;
-      height: auto;
-      cursor: pointer;
-      border: 2px solid #ccc;
-      border-radius: 8px;
+
+    .galeria img {
+      width: 300px;
+      border-radius: 10px;
       transition: transform 0.2s;
     }
-    .gallery img:hover {
+
+    .galeria img:hover {
       transform: scale(1.05);
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #222;
-      color: white;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Mis remeras de fútbol</h1>
-    <div class="subtitle">Colección personal de Nacho</div>
-  </header>
 
-  <div class="section">
-    <h2>Remeras de Boca</h2>
-    <div class="gallery">
-      <!-- Agregá las imágenes acá -->
-      <img src="img/boca1.jpg" alt="Remera Boca 1">
-      <img src="img/boca2.jpg" alt="Remera Boca 2">
-    </div>
+  <h1>Las remeras de Nacho</h1>
+
+  <h2>Remeras de Boca</h2>
+  <div class="galeria">
+    <img src="img/boca1.jpg" alt="Boca 2022" title="Boca 2022">
+    <img src="img/boca2.jpg" alt="Boca Retro" title="Boca Retro">
   </div>
 
-  <div class="section">
-    <h2>Remeras de Europa</h2>
-    <div class="gallery">
-      <img src="img/europa1.jpg" alt="Remera Europa 1">
-    </div>
+  <h2>Remeras de Europa</h2>
+  <div class="galeria">
+    <img src="img/barcelona.jpg" alt="Barcelona 2023" title="Barcelona 2023">
+    <img src="img/realmadrid.jpg" alt="Real Madrid" title="Real Madrid">
   </div>
 
-  <div class="section">
-    <h2>Remeras de América y Resto del Mundo</h2>
-    <div class="gallery">
-      <img src="img/america1.jpg" alt="Remera América 1">
-    </div>
+  <h2>Remeras de América y Resto del Mundo</h2>
+  <div class="galeria">
+    <img src="img/flamengo.jpg" alt="Flamengo" title="Flamengo">
+    <img src="img/intermiami.jpg" alt="Inter Miami" title="Inter Miami">
   </div>
 
-  <div class="section">
-    <h2>Remeras de Argentina</h2>
-    <div class="gallery">
-      <img src="img/argentina1.jpg" alt="Remera Argentina 1">
-    </div>
+  <h2>Remeras de Argentina</h2>
+  <div class="galeria">
+    <img src="img/river.jpg" alt="River Plate" title="River Plate">
+    <img src="img/independiente.jpg" alt="Independiente" title="Independiente">
   </div>
 
-  <div class="section">
-    <h2>Remeras Vintage</h2>
-    <div class="gallery">
-      <img src="img/vintage1.jpg" alt="Remera Vintage 1">
-    </div>
+  <h2>Remeras Vintage</h2>
+  <div class="galeria">
+    <img src="img/vintage1.jpg" alt="Vintage 90s" title="Vintage 90s">
+    <img src="img/vintage2.jpg" alt="Retro Argentina" title="Retro Argentina">
   </div>
 
-  <div class="section">
-    <h2>Remeras de Selecciones</h2>
-    <div class="gallery">
-      <img src="img/seleccion1.jpg" alt="Remera Selección 1">
-    </div>
+  <h2>Remeras de Selecciones</h2>
+  <div class="galeria">
+    <img src="img/argentina.jpg" alt="Argentina Campeón" title="Argentina Campeón">
+    <img src="img/brasil.jpg" alt="Brasil" title="Brasil">
   </div>
 
-  <footer>
-    Hecho con ♥ por Nacho
-  </footer>
+  <h2>Colecciones por conseguir</h2>
+  <div class="galeria">
+    <img src="img/manchesterunited.jpg" alt="Manchester United" title="Manchester United">
+    <img src="img/mexico.jpg" alt="Selección de México" title="Selección de México">
+    <img src="img/palmeiras.jpg" alt="Palmeiras" title="Palmeiras">
+    <img src="img/dortmund.jpg" alt="Borussia Dortmund" title="Borussia Dortmund">
+  </div>
+
 </body>
 </html>
